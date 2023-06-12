@@ -31,6 +31,7 @@ font = pygame.font.Font(None, 36)
 # Set up the game variables
 score = 0
 game_over = False
+game_started = False
 
 # Set up the pipes
 pipe_width = 70
@@ -70,6 +71,29 @@ def restart_game():
     score = 0
     game_over = False
     top_pipe, bottom_pipe = generate_pipes()
+
+# Wait for the player to press the space key to start the game
+while not game_started:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_SPACE:
+                game_started = True
+
+    # Clear the screen
+    window.fill((0, 0, 0))
+
+    # Display the prompt
+    prompt_text = font.render("Press Space to Start", True, white)
+    window.blit(prompt_text, (window_width // 2 - 140, window_height // 2))
+
+    # Update the display
+    pygame.display.update()
+
+    # Limit the frame rate
+    clock.tick(30)
 
 # Game loop
 while True:
@@ -128,3 +152,15 @@ while True:
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_r:
                     restart_game()
+                    game_over = False
+                    game_started = False
+                    # Wait for the player to press the space key to start the game
+                    while not game_started:
+                        for event in pygame.event.get():
+                            if event.type == pygame.QUIT:
+                                pygame.quit()
+                                sys.exit()
+                            elif event.type == pygame.KEYDOWN:
+                                if event.key == pygame.K_SPACE:
+                                    game_started = True
+                                    
