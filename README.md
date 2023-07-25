@@ -13,6 +13,7 @@ Welcome to my Python portfolio! This repository showcases a collection of Python
 - [Appointment Scheduling System](#appointment-scheduling-system)
 - [ChatGPT Wrapper](#chatgpt-wrapper)
 - [Ticket Checklist System](#ticket-checklist-system)
+- [Resume](#resume)
 - [Support](#support)
 
 ## Rock, Paper, Scissors Game
@@ -34,6 +35,11 @@ A Python wrapper for the OpenAI GPT-3.5 Turbo model. This wrapper simplifies int
 ## Ticket Checklist System
 
 A very basic ticketing system PoC for submitting and completing tickets. This project was created with bug fixes and IT ticketing in mind.
+
+## Resume
+
+A Python script, `Resume.py`, a simple, interactive script to display my resume.
+
 
 ---
 
