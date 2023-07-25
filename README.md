@@ -41,7 +41,7 @@ A basic ticketing system for creating and completing checklists. This project wa
 
 If you find my Python projects inspiring and would like to support my journey to become a professional Python developer, consider making a donation. Your generous contribution will help me continue to improve my skills and create more exciting projects. Thank you in advance for your support!
 
-- [Donate via ETH] ''' 0x3f3c3cd12e0676B4D2C4f42501f77BfdE715e5fb '''
-- [Donate via Bitcoin] ''' bc1qff9uzjgypfqy899h8ytnh66lyf7my7adhax5cq '''
+- [Donate via ETH] ` 0x3f3c3cd12e0676B4D2C4f42501f77BfdE715e5fb `
+- [Donate via Bitcoin] ` bc1qff9uzjgypfqy899h8ytnh66lyf7my7adhax5cq `
 
 
