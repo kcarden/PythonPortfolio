@@ -4,6 +4,8 @@
 
 Welcome to my Python portfolio! This repository showcases a collection of Python projects that I have developed. Below, you will find a brief description of each project.
 
+---
+
 ## Table of Contents
 
 - [Rock, Paper, Scissors Game](#rock-paper-scissors-game)
@@ -12,8 +14,6 @@ Welcome to my Python portfolio! This repository showcases a collection of Python
 - [ChatGPT Wrapper](#chatgpt-wrapper)
 - [Ticket Checklist System](#ticket-checklist-system)
 - [Support](#support)
-
----
 
 ## Rock, Paper, Scissors Game
 
