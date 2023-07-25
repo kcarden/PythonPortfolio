@@ -33,16 +33,14 @@ A Python wrapper for the OpenAI GPT-3.5 Turbo model. This wrapper simplifies int
 
 ## Ticket Checklist System
 
-A basic ticketing system for creating and completing checklists. This project was created with bug fixes and IT ticketing in mind.
+A very basic ticketing system PoC for submitting and completing tickets. This project was created with bug fixes and IT ticketing in mind.
 
 ---
 
-## Support
+## Hire Me
 
-If you find my Python projects inspiring and would like to support my journey to become a professional Python developer, consider making a donation. Your generous contribution will help me continue to improve my skills and create more exciting projects. Thank you in advance for your support!
+I am passionate about Python development and eager to take my skills to the next level. If you have any job opportunities that align with my interests and expertise, I'd love to hear from you. Please visit my [LinkedIn profile](www.linkedin.com/in/cardenkevin) to connect with me.
 
-- [Donate via ETH] ` 0x3f3c3cd12e0676B4D2C4f42501f77BfdE715e5fb `
-- [Donate via Bitcoin] ` bc1qff9uzjgypfqy899h8ytnh66lyf7my7adhax5cq `
-- [Donate via CashApp] ` $KevinCarden `
+
 
 
